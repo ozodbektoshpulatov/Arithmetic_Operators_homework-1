@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/arithmetic_operators_test
+          repository: Codeschool-Python-Test/arithmetic_operators_test
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
